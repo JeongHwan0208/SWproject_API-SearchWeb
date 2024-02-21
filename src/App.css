@@ -1,0 +1,36 @@
+.banner {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333; /* 어두운 배경색 */
+}
+
+.banner .main-link{
+  text-decoration: none;
+  font-size: 36px;
+  color: #fff; /* 밝은 텍스트색 */
+  margin: 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  background-color: #222; /* 어두운 배경색 */
+  padding: 20px 0;
+}
+
+.nav-link {
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid #444; /* 어두운 테두리 */
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff; /* 밝은 텍스트색 */
+}
+
+.nav-link:hover {
+  background-color: #555; /* 어두운 배경색 */
+}
+
+body{
+  background-color: #222;
+}

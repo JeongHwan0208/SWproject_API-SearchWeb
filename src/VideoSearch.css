@@ -1,0 +1,100 @@
+.video-search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .video-documents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+  }
+  .video-documents a {
+    text-decoration: none; /* 링크의 밑줄 제거 */
+    color: white; /* 텍스트 색상을 흰색으로 설정 */
+}
+
+  .video-documents > .video-result {
+    margin: 20px;
+    padding: 20px;
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .video-documents h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .video-documents p {
+    margin-bottom: 10px;
+  }
+  
+  .video-documents img {
+    width: 250px;
+    border-radius: 5px;
+  }
+  
+  .video-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .video-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  .video-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .video-button:hover {
+    background-color: #45a049;
+  }
+  
+  .video-search-container .video-pagination {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .video-search-container .video-title {
+    color: white;
+    text-align: center;
+  }
+  
+  .video-search-container .video-pagination select,
+  .video-search-container .video-pagination span,
+  .video-search-container .video-pagination button {
+    margin: 0 5px;
+  }
+  
+  .video-search-container .video-pagination span:last-child {
+    color: white;
+  }
+  
+  .video-search-container .video-pagination span:first-child {
+    color: black;
+  }
+  
+  .video-search-container .video-pagination span:first-of-type {
+    color: white;
+  }
+  

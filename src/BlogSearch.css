@@ -1,0 +1,101 @@
+.blog-search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .blog-results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+  }
+  
+  .blog-results a {
+    text-decoration: none; /* 링크의 밑줄 제거 */
+    color: white; /* 텍스트 색상을 흰색으로 설정 */
+  }
+  
+  .blog-result {
+    margin: 20px;
+    padding: 20px;
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .blog-result h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .blog-result p {
+    margin-bottom: 10px;
+  }
+  
+  .blog-result img {
+    width: 250px;
+    border-radius: 5px;
+  }
+  
+  .blog-search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .blog-search-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  .blog-search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .blog-search-button:hover {
+    background-color: #45a049;
+  }
+  
+  .blog-pagination {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .blog-title {
+    color: white;
+    text-align: center;
+  }
+  
+  .blog-pagination select,
+  .blog-pagination span,
+  .blog-pagination button {
+    margin: 0 5px;
+  }
+  
+  .blog-pagination span:last-child {
+    color: white;
+  }
+  
+  .blog-pagination span:first-child {
+    color: black;
+  }
+  
+  .blog-pagination span:first-of-type {
+    color: white;
+  }
+  

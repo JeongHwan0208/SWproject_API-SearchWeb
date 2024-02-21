@@ -1,0 +1,111 @@
+.image-search-container {
+  text-align: center;
+  color: white;
+}
+
+.image-title {
+  color: white;
+  text-align: center;
+}
+
+.image-search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image-search-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.image-search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.image-search-button:hover {
+  background-color: #45a049;
+}
+
+.image-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-result {
+  margin: 10px;
+  width: 30%;
+  color: white;
+  text-align: center;
+}
+
+.image-result a {
+  color: white;
+  text-decoration: none;
+}
+
+.image-result img {
+  width: 250px;
+  height: 250px;
+}
+
+.no-image-results {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.image-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-pagination span,
+.image-pagination button {
+  margin: 0 5px;
+  color: white;
+}
+
+.image-pagination span:last-child {
+  color: white;
+}
+
+.image-pagination span:first-child {
+  color: black;
+}
+
+.image-pagination span:first-of-type {
+  color: white;
+}
+
+.image-prev-button,
+.image-next-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.image-prev-button:hover,
+.image-next-button:hover {
+  background-color: #45a049;
+}
+
+.image-prev-button:disabled,
+.image-next-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
